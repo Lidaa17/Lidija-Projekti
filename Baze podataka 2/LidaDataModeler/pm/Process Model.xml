@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="CA37FBFC-5E77-DF31-F26D-A93D58BA912C">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:02:59 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="1CBDA022-9080-A117-05CC-DEE94A9B51F0" name="FKArc_1">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>5FEA9A0E-F2E5-4A22-43D1-70FF6D0EAD6C</table>
+<fkeys>
+<fkeyID>B089DB03-4955-82DE-B7E8-A56AA0F596C1</fkeyID>
+<fkeyID>BBC106DA-5BEE-1D06-4E26-2F654435C0DB</fkeyID>
+</fkeys>
+</FKArc>

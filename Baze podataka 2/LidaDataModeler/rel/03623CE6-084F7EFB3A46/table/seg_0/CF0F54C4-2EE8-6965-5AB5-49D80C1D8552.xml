@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF0F54C4-2EE8-6965-5AB5-49D80C1D8552" name="iznajmljuje">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>266BCF79-540F-E084-F0DB-FF476813EF69</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datum_vreme_z" id="041BEFD3-D090-959B-122C-7973C59DBBB5">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>C4789D26-531C-EBBD-08D9-DC6754E98A9A</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA971043-4F2A-54C4-4C30-F4B83285CAC2" referredColumn="43759E55-168E-5252-CD84-F97690DE0B19"/>
+</associations>
+</Column>
+<Column name="id_i" id="D418C95F-5951-9FD2-1A44-B4CC9B30B67A">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>FA960577-6805-47EB-3B75-A3508AAF5531</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A5228BD-8328-FCBF-BC48-71E594C09126" referredColumn="3501BC6C-EED5-7BF0-05F3-8D29793D7E85"/>
+</associations>
+</Column>
+<Column name="id_racun" id="D433BA63-4476-D898-5441-FA1689A9B9AF">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>D46708FB-537B-ECC1-C838-580AEACE77D3</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4F97E9E-5C3F-8F9E-BD74-D3B0D58128BC" referredColumn="2F337C0F-483D-1B30-718E-CA2D785A4FFC"/>
+</associations>
+</Column>
+<Column name="id_k" id="4B0329E7-0789-3941-13B8-7068D642C58B">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>E03099F4-CE91-AA3C-B3F5-3D4DC5D3EF42</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="211FDD01-559D-58C4-5CA0-11B1EC673A94" referredColumn="0B3794B5-C1BE-9446-4AAD-F8DFE87D0D5F"/>
+</associations>
+</Column>
+<Column name="naziv_p" id="DA2DC906-6C9D-5D86-8A0D-599DF7AD7BC9">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>70DA6F94-57AE-70FF-DD5C-5315C048E295</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="211FDD01-559D-58C4-5CA0-11B1EC673A94" referredColumn="3906F294-3604-AD25-ADB4-CFE61A2A0594"/>
+</associations>
+</Column>
+<Column name="naziv_kategorije" id="6FD6396F-83D9-E5AA-49A3-1024DCB14E80">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>147E0498-B4D8-F604-9685-E4BF214BEFB7</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="211FDD01-559D-58C4-5CA0-11B1EC673A94" referredColumn="AEC08CBE-CE07-3B8B-2079-7BA370A7CFCC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC84CD0C-E811-E800-7092-5AEB970A3861" name="iznajmljuje_PK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>5914C772-38E5-23DF-533D-CD2A2A277B60</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="041BEFD3-D090-959B-122C-7973C59DBBB5"/>
+<colUsage columnID="D418C95F-5951-9FD2-1A44-B4CC9B30B67A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F62C5ECF-3842-9409-1904-CD802A51D793" name="iznajmljuje_Iznajmljivac_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>EB40AFF1-1FD3-F67D-FE2C-A063388FE814</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D418C95F-5951-9FD2-1A44-B4CC9B30B67A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DEAC011-46DA-F05E-2FCA-69F9990FE513" name="iznajmljuje_Zajam_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>6AC9CC33-78F2-39D3-6AB5-8E7D87E2679D</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="041BEFD3-D090-959B-122C-7973C59DBBB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA3F95D1-0313-54F7-5C63-46DA60D6372D" name="iznajmljuje_Racun_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>7F6557DB-837F-0864-253F-8C01B8B9B5D3</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D433BA63-4476-D898-5441-FA1689A9B9AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9754CD8C-8007-F1C1-FE5D-02999924F755" name="iznajmljuje_pripada_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>15360B24-E0B6-9E3A-9FEF-86C3CA5DCDB7</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B0329E7-0789-3941-13B8-7068D642C58B"/>
+<colUsage columnID="DA2DC906-6C9D-5D86-8A0D-599DF7AD7BC9"/>
+<colUsage columnID="6FD6396F-83D9-E5AA-49A3-1024DCB14E80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="266BCF79-540F-E084-F0DB-FF476813EF69" name="iznajmljuje">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:15:58 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum_vreme_z" id="C4789D26-531C-EBBD-08D9-DC6754E98A9A">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:27:37 UTC</createdTime>
+<generatorID>6AC9CC33-78F2-39D3-6AB5-8E7D87E2679D</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<referedAttribute>5F16726A-E4FE-A706-838C-F3184BC7DBCE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_i" id="FA960577-6805-47EB-3B75-A3508AAF5531">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:28:21 UTC</createdTime>
+<generatorID>EB40AFF1-1FD3-F67D-FE2C-A063388FE814</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<referedAttribute>0C2EC09F-79EF-30BE-9A55-E3A9AC279F7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_racun" id="D46708FB-537B-ECC1-C838-580AEACE77D3">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:28:47 UTC</createdTime>
+<generatorID>7F6557DB-837F-0864-253F-8C01B8B9B5D3</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<referedAttribute>E933C9E2-5525-E472-A8EA-5F2CDE539FC0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_k" id="E03099F4-CE91-AA3C-B3F5-3D4DC5D3EF42">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:29:05 UTC</createdTime>
+<generatorID>15360B24-E0B6-9E3A-9FEF-86C3CA5DCDB7</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<referedAttribute>8648ABD3-7C75-2D3C-E042-3F82263EF394</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_p" id="70DA6F94-57AE-70FF-DD5C-5315C048E295">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:29:05 UTC</createdTime>
+<generatorID>15360B24-E0B6-9E3A-9FEF-86C3CA5DCDB7</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<referedAttribute>55EF267D-E165-E75D-B16F-61B25B718000</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_kategorije" id="147E0498-B4D8-F604-9685-E4BF214BEFB7">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:29:05 UTC</createdTime>
+<generatorID>15360B24-E0B6-9E3A-9FEF-86C3CA5DCDB7</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<referedAttribute>6C7B853A-58DD-C792-C6C2-4B583CE7DA1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5914C772-38E5-23DF-533D-CD2A2A277B60" name="iznajmljuje PK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:27:47 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4789D26-531C-EBBD-08D9-DC6754E98A9A</attributeRef>
+<attributeRef>FA960577-6805-47EB-3B75-A3508AAF5531</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

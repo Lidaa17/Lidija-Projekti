@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2C1F6690-3BC1-7C97-C719-66D6DF393E7B" containerWithKeyObject="2387692D-3846-7B38-282D-B08CBC955857" localFKIndex="F7E8A607-DC11-B0BF-7767-C681AEA30CA7" name="pripada_Kostim_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>37AEA646-619B-C357-EBAC-D466931E5DE0</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<referredTableLongName>Kostim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C70E6E9-A184-A581-2E3A-6B27FED9BA2B</referredTableID>
+<keyObject>1DA48905-5705-7FCD-1F16-235267B5227F</keyObject>
+<referredKeyID>1DA48905-5705-7FCD-1F16-235267B5227F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_k,naziv_p</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

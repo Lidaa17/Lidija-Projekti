@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="211FDD01-559D-58C4-5CA0-11B1EC673A94" containerWithKeyObject="CF0F54C4-2EE8-6965-5AB5-49D80C1D8552" localFKIndex="9754CD8C-8007-F1C1-FE5D-02999924F755" name="iznajmljuje_pripada_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>15360B24-E0B6-9E3A-9FEF-86C3CA5DCDB7</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<referredTableLongName>pripada</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2387692D-3846-7B38-282D-B08CBC955857</referredTableID>
+<keyObject>47652981-B6FD-642F-8EFC-2F62A5C016A0</keyObject>
+<referredKeyID>47652981-B6FD-642F-8EFC-2F62A5C016A0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_k,naziv_p,naziv_kategorije</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

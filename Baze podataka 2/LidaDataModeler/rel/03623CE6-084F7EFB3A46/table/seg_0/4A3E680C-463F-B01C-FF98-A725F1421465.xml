@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A3E680C-463F-B01C-FF98-A725F1421465" name="Prodavac">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>96514327-7B03-0D2E-2508-CCE0CCE6CF91</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_r" id="DB2D697E-DD8C-0807-D2BE-FFB1C56BE0EF">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>1722470D-4CE4-F470-3ED8-A5B9DAC4BD41</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBC106DA-5BEE-1D06-4E26-2F654435C0DB" referredColumn="975AD3DD-6C5C-221F-3BFE-D1B19D5707C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C1BA186-5CC7-173D-AC9B-AE55A9BEA771" name="Prodavac_PK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>998FBF3F-7569-5BE4-21CC-8A64C00FC980</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2D697E-DD8C-0807-D2BE-FFB1C56BE0EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2399364-79FA-F64E-9C81-2BAFBBDD6D6D" name="Prodavac_Radnik_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>B8D67C88-E796-31AF-6A72-1C2687D5573C</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2D697E-DD8C-0807-D2BE-FFB1C56BE0EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

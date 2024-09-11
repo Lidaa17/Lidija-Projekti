@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FB05A21-FB24-0241-5421-0FB0ACEDC188" name="Racun">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>B60A8AAD-8D16-8ED8-0C00-EBE05B132B9C</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_racun" id="2F337C0F-483D-1B30-718E-CA2D785A4FFC">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>E933C9E2-5525-E472-A8EA-5F2CDE539FC0</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_vreme_r" id="D4F3CCDD-819E-0DA5-7C43-342B6C8D3FB3">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>09084596-F5EC-4B28-B48F-F77B3176422B</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_r" id="1C6D70F1-025D-8152-5853-DD0DCABF0F5F">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>254531AB-1829-4ACA-2181-813F94122E4F</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E28487CE-C054-F322-A0FA-1D63970BEFFF" referredColumn="DB2D697E-DD8C-0807-D2BE-FFB1C56BE0EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0022DBA2-6139-C838-E9CD-38757F940EAC" name="Racun_PK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>CFCA6D2F-A510-F998-6BEE-E20889868594</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F337C0F-483D-1B30-718E-CA2D785A4FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8CB27CB-BD2D-D1D8-1553-04B637770C45" name="Racun_Prodavac_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>32E4021D-9CAF-8700-52EC-DC6D4F641885</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C6D70F1-025D-8152-5853-DD0DCABF0F5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

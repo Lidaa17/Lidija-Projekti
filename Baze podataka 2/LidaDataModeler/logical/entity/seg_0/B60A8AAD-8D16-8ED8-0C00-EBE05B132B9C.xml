@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B60A8AAD-8D16-8ED8-0C00-EBE05B132B9C" name="Racun">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:16:20 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_racun" id="E933C9E2-5525-E472-A8EA-5F2CDE539FC0">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:16:29 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_vreme_r" id="09084596-F5EC-4B28-B48F-F77B3176422B">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:16:47 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_r" id="254531AB-1829-4ACA-2181-813F94122E4F">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:26:41 UTC</createdTime>
+<generatorID>32E4021D-9CAF-8700-52EC-DC6D4F641885</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<referedAttribute>1722470D-4CE4-F470-3ED8-A5B9DAC4BD41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFCA6D2F-A510-F998-6BEE-E20889868594" name="Racun PK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:16:43 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E933C9E2-5525-E472-A8EA-5F2CDE539FC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

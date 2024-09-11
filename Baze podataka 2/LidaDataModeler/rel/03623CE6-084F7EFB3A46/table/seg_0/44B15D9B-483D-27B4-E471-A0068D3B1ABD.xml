@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44B15D9B-483D-27B4-E471-A0068D3B1ABD" name="Relation_5">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_r" id="57DB0880-2E25-9BF8-E504-8CEE86BA3A65">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C25428D-610D-3A33-9D6A-9B99DEDD3D03" referredColumn="57A50116-1545-9CDD-6A29-38D44232B1FE"/>
+</associations>
+</Column>
+<Column name="id_k" id="4F1C2608-32E8-285D-7DC6-2E1EE6FF0BFF">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD19ABC-4F4B-CEDB-BCC0-DED6634861FE" referredColumn="F770412E-10F8-03FD-0B12-0F1CA463A07C"/>
+</associations>
+</Column>
+<Column name="naziv_p" id="CDF3FAED-918A-BE37-A284-9D37459FF439">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD19ABC-4F4B-CEDB-BCC0-DED6634861FE" referredColumn="17D7EAF4-D102-4806-4459-F8530C2EE627"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="138CA26C-7750-9C32-F5E1-BB791ED81839" name="Relation_5_PK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57DB0880-2E25-9BF8-E504-8CEE86BA3A65"/>
+<colUsage columnID="4F1C2608-32E8-285D-7DC6-2E1EE6FF0BFF"/>
+<colUsage columnID="CDF3FAED-918A-BE37-A284-9D37459FF439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DD32203-1FD6-4821-A46E-25DC7D836CFF" name="Relation_5_Krojac_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>46578781-F01F-8838-0893-C79C81063141</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57DB0880-2E25-9BF8-E504-8CEE86BA3A65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C0F4DA9-F6CF-0E54-8924-C42C6351654A" name="Relation_5_Kostim_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>46578781-F01F-8838-0893-C79C81063141</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F1C2608-32E8-285D-7DC6-2E1EE6FF0BFF"/>
+<colUsage columnID="CDF3FAED-918A-BE37-A284-9D37459FF439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

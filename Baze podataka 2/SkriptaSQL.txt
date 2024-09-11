@@ -1,0 +1,70 @@
+SQL skript
+
+insert into radnik(id_r, ime_r, prz_r, tel_r, email_r, naziv_p) values (1, 'Lidija', 'Durdic', 0601435775, 'lidija.dj17@gmail.com', 'Svet magije');
+insert into radnik(id_r, ime_r, prz_r, tel_r, email_r, naziv_p) values (2, 'Milan', 'Stojic', 069324564, 'miki.stojke@gmail.com', 'Svet magije');
+
+insert into prodavnica(naziv_p, adr_p, tel_p, email_p) values ('Svet magije', 'Fruskogorska 6', 4541180, 'svetmag@gmail.com');
+
+insert into kostim(id_k, naziv_k, naziv_p) values (1, 'Bubamara', 'Svet magije');
+
+insert into kategorija(naziv_kategorije) values ('za devojcice');
+
+insert into krojac(id_r, id_r_1) values (1, 1);
+
+insert into pripada(naziv_kategorije, id_k, naziv_p) values ('za devojcice', 1, 'Svet magije');
+//Pogled 1
+CREATE VIEW pregled_iznajmljenih_kostima AS
+SELECT
+    p.naziv_p AS prodavnica,
+    k.naziv_kategorije AS kategorija,
+    COUNT(i.id_i) AS broj_iznajmljenih_kostima
+FROM
+    prodavnica p
+JOIN
+    iznajmljivac i ON p.naziv_p = i.naziv_p
+JOIN
+    iznajmljuje iz ON i.id_i = iz.id_i
+JOIN
+    pripada k ON iz.naziv_kategorije = k.naziv_kategorije
+GROUP BY
+    p.naziv_p, k.naziv_kategorije;
+//Pogled 2
+CREATE VIEW pregled_iznajmljenih_kostima_sa_filtriranjem AS
+SELECT
+    prodavnica,
+    kategorija,
+    broj_iznajmljenih_kostima
+FROM
+    pregled_iznajmljenih_kostima
+WHERE
+    kategorija = 'za devojcice'; 
+//Pogled 3
+CREATE VIEW pregled_proseka_iznajmljenih_kostima_po_prodavnici_i_kategoriji AS
+SELECT
+    p.prodavnica,
+    k.kategorija,
+    AVG(iz.broj_iznajmljenih_kostima) AS prosecan_broj_iznajmljenih_kostima
+FROM
+    pregled_iznajmljenih_kostima iz
+GROUP BY
+    p.prodavnica, k.kategorija;
+//Pogled 4
+CREATE VIEW pregled_radnika_sa_najvise_iznajmljenih_kostima_po_prodavnici_i_kategoriji AS
+SELECT
+    p.prodavnica,
+    k.kategorija,
+    r.radnik,
+    i.broj_iznajmljenih_kostima
+FROM
+    (SELECT
+        p.naziv_p AS prodavnica,
+        k.naziv_kategorije AS kategorija,
+        CONCAT(r.ime_r, ' ', r.prz_r) AS radnik,
+        COUNT(iz.id_i) AS broj_iznajmljenih_kostima,
+        RANK() OVER (PARTITION BY p.naziv_p, k.naziv_kategorije ORDER BY COUNT(iz.id_i) DESC) AS rbr
+    FROM
+        pregled_iznajmljenih_kostima iz
+    GROUP BY
+        p.naziv_p, k.naziv_kategorije, r.ime_r, r.prz_r) r
+WHERE
+    r.rbr = 1;

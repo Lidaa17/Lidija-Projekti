@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="B8D67C88-E796-31AF-6A72-1C2687D5573C">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:07:53 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>CFE2BD76-6C56-65FC-A134-C07994AC680B</sourceEntity>
+<targetEntity>96514327-7B03-0D2E-2508-CCE0CCE6CF91</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

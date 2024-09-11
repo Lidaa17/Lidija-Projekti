@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA971043-4F2A-54C4-4C30-F4B83285CAC2" containerWithKeyObject="CF0F54C4-2EE8-6965-5AB5-49D80C1D8552" localFKIndex="8DEAC011-46DA-F05E-2FCA-69F9990FE513" name="iznajmljuje_Zajam_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>6AC9CC33-78F2-39D3-6AB5-8E7D87E2679D</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<referredTableLongName>Zajam</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AAD7F7E0-B0CD-A3C8-B60B-E2BAFFECD81B</referredTableID>
+<keyObject>24C3BC5F-FAD9-FA96-7946-8800B65D8497</keyObject>
+<referredKeyID>24C3BC5F-FAD9-FA96-7946-8800B65D8497</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>datum_vreme_z</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

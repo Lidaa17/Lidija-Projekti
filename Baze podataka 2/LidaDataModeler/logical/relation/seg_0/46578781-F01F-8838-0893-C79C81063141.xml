@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="46578781-F01F-8838-0893-C79C81063141">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:20:22 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E4B654C3-BF8A-E755-90DE-4210FA6A9087</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF966A5F-8886-BA26-C6B1-63AE392320EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

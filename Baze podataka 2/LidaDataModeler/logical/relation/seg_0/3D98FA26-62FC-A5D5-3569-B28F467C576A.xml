@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hijerarhija" directorySegmentName="seg_0" id="3D98FA26-62FC-A5D5-3569-B28F467C576A">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:08:36 UTC</createdTime>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<engineerTo>
+<item key="03623CE6-0EDE-0872-E681-084F7EFB3A46" value="true"/>
+</engineerTo>
+<targetPk>998FBF3F-7569-5BE4-21CC-8A64C00FC980</targetPk>
+<identifying>false</identifying>
+<nameOnSource>podredjen</nameOnSource>
+<nameOnTarget>nadredjen</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4B654C3-BF8A-E755-90DE-4210FA6A9087</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E4B654C3-BF8A-E755-90DE-4210FA6A9087</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

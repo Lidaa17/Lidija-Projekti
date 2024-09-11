@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2387692D-3846-7B38-282D-B08CBC955857" name="pripada">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>37817C5E-5C3C-7FBD-BF56-A52F22AAD81B</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_k" id="0B3794B5-C1BE-9446-4AAD-F8DFE87D0D5F">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>8648ABD3-7C75-2D3C-E042-3F82263EF394</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C1F6690-3BC1-7C97-C719-66D6DF393E7B" referredColumn="F770412E-10F8-03FD-0B12-0F1CA463A07C"/>
+</associations>
+</Column>
+<Column name="naziv_p" id="3906F294-3604-AD25-ADB4-CFE61A2A0594">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>55EF267D-E165-E75D-B16F-61B25B718000</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C1F6690-3BC1-7C97-C719-66D6DF393E7B" referredColumn="17D7EAF4-D102-4806-4459-F8530C2EE627"/>
+</associations>
+</Column>
+<Column name="naziv_kategorije" id="AEC08CBE-CE07-3B8B-2079-7BA370A7CFCC">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>6C7B853A-58DD-C792-C6C2-4B583CE7DA1F</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68B3FC28-D6F8-07C3-F209-7940BC529A9E" referredColumn="F2B493D6-3D34-D3F8-0436-F5CC5144821A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47652981-B6FD-642F-8EFC-2F62A5C016A0" name="pripada_PK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>3826607E-AD8F-8564-43CE-2CA1947954C5</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B3794B5-C1BE-9446-4AAD-F8DFE87D0D5F"/>
+<colUsage columnID="3906F294-3604-AD25-ADB4-CFE61A2A0594"/>
+<colUsage columnID="AEC08CBE-CE07-3B8B-2079-7BA370A7CFCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7E8A607-DC11-B0BF-7767-C681AEA30CA7" name="pripada_Kostim_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>37AEA646-619B-C357-EBAC-D466931E5DE0</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B3794B5-C1BE-9446-4AAD-F8DFE87D0D5F"/>
+<colUsage columnID="3906F294-3604-AD25-ADB4-CFE61A2A0594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D98529A7-679E-5284-F663-E8F4D8C4AE99" name="pripada_Kategorija_FK">
+<createdBy>Lidija</createdBy>
+<createdTime>2024-01-15 23:32:10 UTC</createdTime>
+<generatorID>339A7980-6BCB-3ABE-3D1B-F50C3929AFD0</generatorID>
+<ownerDesignName>LidaDataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC08CBE-CE07-3B8B-2079-7BA370A7CFCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
